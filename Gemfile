@@ -8,7 +8,8 @@ gemspec
 group :development, :test do
   gem 'awesome_print', '~> 1.9'
   gem 'debug', '~> 1.7'
-  gem 'rspec'
+  gem 'rake', '~> 13.0'
+  gem 'rspec', '~> 3.12'
 end
 
 group :development do

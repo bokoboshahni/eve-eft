@@ -73,6 +73,7 @@ GEM
       tty-color (~> 0.5)
     public_suffix (5.0.1)
     rainbow (3.1.1)
+    rake (13.0.6)
     reek (6.1.2)
       kwalify (~> 0.7.0)
       parser (~> 3.1.0)
@@ -157,8 +158,9 @@ DEPENDENCIES
   debug (~> 1.7)
   eve-eft!
   git-lint (~> 4.6)
+  rake (~> 13.0)
   reek (~> 6.1)
-  rspec
+  rspec (~> 3.12)
   rubocop (~> 1.39)
   rubocop-faker (~> 1.1)
   rubocop-performance (~> 1.15)
